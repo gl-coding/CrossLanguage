@@ -28,7 +28,7 @@ class HelloWorldHandler:
 
 handler = HelloWorldHandler()
 processor = HelloWorld.Processor(handler)
-transport = TSocket.TServerSocket('127.0.0.1',30303)
+transport = TSocket.TServerSocket('127.0.0.1', 30303)
 tfactory = TTransport.TBufferedTransportFactory()
 pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 
